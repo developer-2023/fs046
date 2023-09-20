@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent sibiling selector (+) and general sibiling selector (~) (combinators)</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        h3 + p {
+            background-color: red;
+        }
+        h3 ~ p {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
